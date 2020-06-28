@@ -1,0 +1,107 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+* p, * a{
+    font-size: 20px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar{
+    width: 0.25rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #00aff2;
+
+}
+
+::-webkit-scrollbar-track{
+    background: #ffffff;
+}
+
+/*Header links*/
+.navbar-nav > li > a{
+    transition: 500ms;
+}
+
+.navbar-nav > li > a:hover{
+    color: #00aff2 !important;
+}
+
+/*Jumbotrons*/
+.jumbotron-intro{
+    color: #ffffff;
+    background: linear-gradient(to right, #00aff2, #5469e5);
+}
+
+.jumbotron-mid{
+    color: #ffffff;
+    background: url('../img/bg-mid.png');
+}
+
+/*Titles*/
+.title-blue{
+    font-weight: bold;
+    color: #00aff2;
+    transition: 250ms;
+}
+.title-blue:hover{
+    color: #008ff2;
+}
+
+/*Icons*/
+#fa-icons{
+    color: #00aff2;
+    transition: 250ms;
+}
+#fa-icons:hover{
+    color: #4369F2;
+}
+
+/*Logos*/
+#img-logo{
+    background-color: #f0f0f0;
+    transition: 300ms;
+}
+#img-logo:hover{
+    background-color: #f6f6f6;
+}
+
+/*Card*/
+#card-hover{
+    transition: 250ms;
+}
+#card-hover:hover{
+    color: #00aff2;
+}
+#btn-card{
+    color: #ffffff;
+    background: #00aff2;
+    transition: 250ms;
+}
+#btn-card:hover{
+    background: #5469E5;
+}
+
+#contato{
+    background: #f9f9f9;
+}
+
+#footer{
+    background: #f7f7f7;
+    color: #202020;
+}
+#footer p{
+    font-size: 16px;
+}
+
+#footer a{
+    font-size: inherit;
+    color: #303030;
+    text-decoration: none;
+    transition: 300ms;
+}
+#footer a:hover{
+    color: #5469E5;
+}
